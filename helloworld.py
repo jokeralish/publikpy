@@ -9,7 +9,7 @@ import ast, codecs, json, os, pytz, re, random, requests, sys, time, urllib.pars
 
 client = LINE()
 #client = LINE("EwBCEUwULBwOrdEzXo8c.k22jtIKVk8NTeigAgvYfda.Rx0g501fqcE60YK6z/qMlqjnrC6xIYzYicYnJrqSvn0=")
-client.log("Auth Token : " + str(line.authToken))
+client.log("Auth Token : " + str(LINE.authToken))
 
 clientMid = client.profile.mid
 clientStart = time.time()
