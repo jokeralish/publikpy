@@ -7,8 +7,8 @@ from datetime import datetime
 from googletrans import Translator
 import ast, codecs, json, os, pytz, re, random, requests, sys, time, urllib.parse
 
-client = LINE()
-#client = LINE("EwBCEUwULBwOrdEzXo8c.k22jtIKVk8NTeigAgvYfda.Rx0g501fqcE60YK6z/qMlqjnrC6xIYzYicYnJrqSvn0=")
+#client = LINE()
+client = LINE("ExQPMb8QARWVohR7U5s1.iqPpPFnwvkad61U6Am51Oq.HNBecLZeGqBRKZPAWMyxVL5msK1HoQKEckaX0Pl1pSg=")
 client.log("Auth Token : " + str(LINE.authToken))
 
 clientMid = client.profile.mid
@@ -496,7 +496,7 @@ def clientBot(op):
 							icon = "http://dl.profile.line-cdn.net/{}".format(contact.pictureStatus)
 							name = contact.displayName
 							link = "https://pa1.narvii.com/6547/d29a5e4bb3405d83fc15cf50ec057f41640618a8_hq.gif"
-							client.sendFooter(to, helpMessage1, icon, name, link)
+							client.sendMessageWithFooter(to, helpMessage1, icon, name, link)
 						elif cmd == "group":
 							helpMessage2 = menuHelp2()
 							contact = client.getContact(sender)
@@ -737,7 +737,7 @@ def clientBot(op):
 								client.sendMessage(to, "Berhasil mengubah bio menjadi : {}".format(bio))
 						elif cmd == "me":
 							client.sendMention(to, "@!", [sender])
-							client.sendContact(to, sender)
+							client.sendMessageMusic(to, sender)
 						elif cmd == "myprofile":
 							contact = client.getContact(sender)
 							cover = client.getProfileCoverURL(sender)
