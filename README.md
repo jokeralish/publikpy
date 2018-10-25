@@ -4,7 +4,7 @@
 
 ----
 
-# JANGAN LUPA ADD [MONIKA BOT](http://line.me/ti/p/~syifaabyananta)
+# JANGAN LUPA ADD [ALISH JOKER BOT](http://line.me/ti/p/~alish-joker)
 # SC Sementara Sewaktu Waktu Akan Di Update
 
 # Termux

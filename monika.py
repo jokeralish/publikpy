@@ -8,13 +8,13 @@ from googletrans import Translator
 import ast, codecs, json, os, pytz, re, random, requests, sys, time, urllib.parse
 
 #client = LINE()
-client = LINE("ExQPMb8QARWVohR7U5s1.iqPpPFnwvkad61U6Am51Oq.HNBecLZeGqBRKZPAWMyxVL5msK1HoQKEckaX0Pl1pSg=")
+client = LINE("EyjsAXNzlR9AGLvvkTe2.blhEDkbhMym3ZOiDeAzb4G.wLXSNX46ifT0usDvXUNQNsuBQvtE5K+CP4sDc+Sw6cY=")
 client.log("Auth Token : " + str(line.authToken))
 
 clientMid = client.profile.mid
 clientStart = time.time()
 clientPoll = OEPoll(client)
-admin = "u9e36c0029c31e1c1d6c36a8a7c13ff37"
+admin = "ube71e680ce15b31bf6de5a10798080d5"
 
 languageOpen = codecs.open("language.json","r","utf-8")
 readOpen = codecs.open("read.json","r","utf-8")
@@ -127,7 +127,7 @@ def menuHelp():
 				"│ " + key + "Translate" + "\n" + \
 				"│ " + key + "TextToSpeech" + "\n" + \
 				"╰─────────────" + "\n" + \
-				" ⛒ line.me/ti/p/~syifaabyananta ⛒"
+				" ⛒ line.me/ti/p/~alish-joker ⛒"
 				
 	return menuHelp
 
@@ -153,7 +153,7 @@ def menuHelp1():
                  "│ " + key + "GetCover @Mention" + "\n" + \
                  "│ " + key + "StealCover「Mention」" + "\n" + \
                  "╰─────────────" + "\n" + \
-                 " ⛒ line.me/ti/p/~syifaabyananta ⛒"
+                 " ⛒ line.me/ti/p/~alish-joker ⛒"
                  
     return menuHelp1
 
@@ -172,7 +172,7 @@ def menuHelp2():
                  "│ " + key + "PendingList" + "\n" + \
                  "│ " + key + "GroupInfo" + "\n" + \
                  "╰─────────────" + "\n" + \
-                 " ⛒ line.me/ti/p/~syifaabyananta ⛒"
+                 " ⛒ line.me/ti/p/~alish-joker ⛒"
                  
     return menuHelp2
 
@@ -190,7 +190,7 @@ def helpmessage3():
 				  "│ " + key + "Lurking 「On/Off」" + "\n" + \
 				  "│ " + key + "Lurking" + "\n" + \
                   "╰─────────────" + "\n" + \
-                  " ⛒ line.me/ti/p/~syifaabyananta ⛒"
+                  " ⛒ line.me/ti/p/~alish-joker⛒"
                   
     return helpmessage3
 
@@ -209,7 +209,7 @@ def helpmessage4():
 				  "│ " + key + "SearchLyric 「Search」" + "\n" + \
 				  "│ " + key + "SearchYoutube 「Search」" + "\n" + \
                   "╰─────────────" + "\n" + \
-                  " ⛒ line.me/ti/p/~syifaabyananta ⛒"
+                  " ⛒ line.me/ti/p/~alish-joker ⛒"
                   
     return helpmessage4
 
@@ -234,7 +234,7 @@ def helpmessage5():
 				  "│ " + key + "SetAutoResponMessage: 「text」" + "\n" + \
 				  "│ " + key + "SetAutoJoinMessage: 「Text」" + "\n" + \
                   "╰─────────────" + "\n" + \
-                  " ⛒ line.me/ti/p/~syifaabyananta ⛒"
+                  " ⛒ line.me/ti/p/~alish-joker ⛒"
                   
     return helpmessage5
 

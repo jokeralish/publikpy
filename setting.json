@@ -1,8 +1,8 @@
 {
     "autoAdd": false,
-    "autoAddMessage": "Halo @!, terimakasih telah menambahkan saya sebagai teman :3",
+    "autoAddMessage": "Halo @!, thanks for add me invite me your group",
     "autoJoin": false,
-    "autoJoinMessage": "Halo @!, makasih sudah invite saya",
+    "autoJoinMessage": "سلام @!, ",
     "autoJoinTicket": false,
     "autoRead": false,
     "autoRespon": true,
